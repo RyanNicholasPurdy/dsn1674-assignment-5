@@ -1,0 +1,251 @@
+html{
+  box-sizing: border-box;
+  padding: 0;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+header{
+  background-color: #d05c2e;
+  text-align: center;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  display: block;
+  overflow: hidden;
+  padding: 0;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+}
+
+.grainicon{
+  float:right;
+  width: 15%;
+}
+
+.grainicon-2{
+  float: left;
+  width: 15%
+}
+
+nav ul {
+  list-style-type: none;
+  padding:0em;
+  margin: 0em;
+}
+
+nav li{
+  display: inline;
+}
+/* makes initial list diplay as a line instead of stacked */
+
+nav a{
+  display: inline-block;
+  padding: .5em .5em .5em .5em;
+  margin: 0em;
+  border: 1px solid;
+  color: white;
+  border-color: #a93f35;
+  text-decoration: none;
+  border-radius: 0em;
+}
+
+a:hover{
+  background-color: #A93F35;
+}
+
+.inset-left{
+  float: left; /*text will wrap around the right side of the image. If you float
+  right the text wraps around the left*/
+  width: 20%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.inset-right{
+  float: right; /*text will wrap around the right side of the image. If you float
+  right the text wraps around the left*/
+  width: 20%;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.inset-right-2{
+  float: right; /*text will wrap around the right side of the image. If you float
+  right the text wraps around the left*/
+  width: 20%;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+
+h2{
+  background-color;
+  text-align: center;
+  color: white;
+  margin: 0;
+  padding: .5em .5em .5em .5em;
+  display: block;
+}
+
+.corn{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.grain{
+  float: right;
+  width: 50%;
+  margin-right: 0px;
+  border: 1px solid;
+  border-color: grey;
+  margin-left: 15px;
+}
+
+.grains{
+  float: left;
+  width: 50%;
+  margin-right: 15px;
+  border: 1px solid;
+  border-color: grey;
+}
+
+header{
+  float: left;
+  width: 100%;
+  padding: 1rem;
+}
+
+nav li{
+  float: left; /*text will wrap around the right side of the image. If you float
+  right the text wraps around the left*/
+  width: 33.33%;
+  margin-right: 0px;
+  margin-bottom: 0px;
+}
+
+nav a{
+  display: block;
+}
+
+.corn{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.rice{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.oats{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.div-2{
+  background-color: #DC8252;
+  padding: 0;
+  margin: 0;
+  border-top: solid 2px;
+  border-bottom: solid 200px;
+  border-color: #DC8252;
+  text-align: center;
+  color: white;
+}
+
+figcaption{
+  color: white;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+h2{
+  color: white;
+  text-align: center;
+}
+.peanuts{
+  float: left;
+  width: 30%;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.beans{
+  float: left;
+  width: 30%;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 15px;
+  clear: both;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.lentils{
+  float: left;
+  width: 30%;
+  border: 1px solid;
+  border-color: grey;
+  margin-right: 15px;
+  clear: left;
+  margin-top: 15px;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+footer{
+  float: top;
+  background-color: #d05c2e;
+  padding: 1rem;
+  text-align: center;
+  font-size: 1rem;
+  color: #DC8252;
+  overflow: hidden;
+  clear: left;
+}
+.famous-legumes{
+  color: black;
+  text-align: center;
+}
+.p2{
+  font-style: italic;
+}
+b{
+  font-weight: bold;
+}
+li{
+  list-style-type: none;
+}
+
+.figureoats{
+  float: right;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.figurerice{
+  float: left;
+  width: 50%;
+  margin: 0;
+  padding: 0;
+}
+
+.figurecorn{
+  float: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
